@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+import javax.print.DocFlavor.STRING;
+
 public class HealthTrackerApp {
     private final List<HealthRecord> records = new ArrayList<>();
     private final Scanner scanner = new Scanner(System.in);
@@ -22,8 +24,8 @@ public class HealthTrackerApp {
             int choice = readInt("Choose an option:- ");
             try {
                 switch (choice) {
-                    case 1: addRecord(RecordType.ACTIVITY);
-                    case 2: addRecord(RecordType.DIET);
+                    case 1: addRecord("ACTIVITY");
+                    case 2: addRecord("DIET");
                     case 3: listAllRecords();
                     case 4: viewSummaryByDate();
                     case 5: viewOverallStats();
@@ -56,18 +58,18 @@ public class HealthTrackerApp {
         System.out.println(" 0. Exit");
     }
 
-    private void addRecord(RecordType type) {
+    private void addRecord(String type) {
         LocalDate date = readDate("Enter date (yyyy-MM-dd): ");
         String note = readLine("Optional note (press Enter to skip): ");
 
         switch (type) {
-            case ACTIVITY: {
+            case "ACTIVITY": {
                 int steps = readNonNegativeInt("Steps walked: ");
                 double kcalBurned = readNonNegativeDouble("Calories burned (kcal): ");
                 records.add(new ActivityRecord(date, steps, kcalBurned, note));
                 System.out.println("✓ Activity record added.");
             }
-            case DIET: {
+            case "DIET": {
                 double water = readNonNegativeDouble("Water intake (liters): ");
                 double kcal = readNonNegativeDouble("Calories consumed (kcal): ");
                 records.add(new DietRecord(date, water, kcal, note));
