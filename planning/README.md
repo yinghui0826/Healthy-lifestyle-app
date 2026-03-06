@@ -19,7 +19,14 @@ Ryan & Ying Hui (QA/GitHub Lead): Testing, GitHub organization, and README.
 • Project Description : 
 For university student who need to keep fit and stay healthy, our Healthy Lifestyle App is a digital wellness and campus health platform that provides personalized health monitoring. It includes features such as activity tracker, hydration tracking and mental wellness mood tracking. Unlike other platforms in the market, our product offers health and wellbeing support that is tailored to the academic calendar and student lifestyle.
 
-• Overview of Your SDLC Work :I have followed the entire SDLC process .First , we started to plan . We documented functional and non-functional requirements and users stories before planing . Then ,we confirmed the purpose of the project  that  university student who need to keep fit and stay healthy and listed what the project need to do .Then,we did design .We  planed the structure of the project and Prototype showcase .We developed the Prototype .We explained the  use case and class diagram .After that ,we built the project .Finally  ,we did test and evaluation .We checked if the project worked correctly  .We found problems as soon as fix them .We assumed whether the project achieved its goals .
+• Overview of Your SDLC Work :
+Our team used an Agile-Scrum development to complete our SDLC project. 
+Planning:We aligned our project with SDG 3: Good Health and Well-Being, focusing on tracking and managing health risks. We created User Stories and a Product Backlog on Trello, prioritising features like activity tracking and hydration logging for students.
 
+Design:We designed the system using UML Use Case and Class Diagrams. For the interface, we created wireframes and later a high-fidelity prototype in Figma, focusing on a simple and user-friendly design.
+
+Development:We built the dashboard using an iterative approach. We used GitHub for version control to track updates and progress.
+
+Testing:We performed testing to find bugs and collected user feedback on the prototype to improve navigation and usability.
 
 
