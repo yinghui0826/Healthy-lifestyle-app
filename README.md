@@ -10,10 +10,14 @@ Lee Ying Hui    382957
 MA RUO QI   388865
 Ryan Kong Jun Yan   389770
 Mohammad Abdulsalam Al Kadri    0389017
+
 Roles: 
 Rui Qi & Zendric (Project Manager): Trello Lead & Report Compiler. 
+
 Ying Hui & Zendric (Analyst): Use Case & Class Diagrams (SDLC lead).
+
 Ryan & mohamad (Developers): Prototype Building (Figma).
+
 Ryan & Ying Hui (QA/GitHub Lead): Testing, GitHub organization, and README.
 
 • Project Description : 
@@ -21,6 +25,7 @@ For university student who need to keep fit and stay healthy, our Healthy Lifest
 
 • Overview of Your SDLC Work :
 Our team used an Agile scrum development to complete our SDLC project. 
+
 Planning: We chose SDG 3: Good Health and Well-Being for our project, where it focus on tracking and managing health risks. We created user stories and a product backlog on Trello, prioritising features like activity tracking and hydration logging for students.
 
 Design: We designed the system using UML use case and class diagrams. For the interface, we created wireframes and later a high fidelity prototype in Figma, focusing on a simple and user-friendly design.
